@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from "./App";
 import * as serviceWorker from './serviceWorker';
+import DefaultLayout from "./DefaultLayout";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DefaultLayout />
   </React.StrictMode>,
   document.getElementById('root')
 );
