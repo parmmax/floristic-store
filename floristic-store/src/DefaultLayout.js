@@ -19,6 +19,7 @@ function scrollFunction() {
 const DefaultLayout = () => {
     return (
         <div className={classes.defaultLayout}>
+
             <nav id="menu" className={classes.menu}>
                 <ul className={classes.list}>
                     <li><a href="#">HOME</a></li>
@@ -63,30 +64,6 @@ const DefaultLayout = () => {
                         qui, quos recusandae sequi tempore tenetur velit voluptatem voluptatum? Accusamus, aliquid
                         corporis debitis error eveniet expedita explicabo facere fugit laboriosam libero nisi non
                         nostrum obcaecati odio pariatur repellendus ullam.
-                    </div>
-                </section>
-                <section className={classes.fourthSection}>
-                    <h2>Fourth section</h2>
-                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dignissimos eius
-                        eligendi,
-                        eos est exercitationem fugiat illo, magnam neque nobis nulla possimus quae quo rem
-                        voluptatum?
-                        Iure maiores pariatur quas sequi voluptates. Deleniti fugiat ipsa odit provident
-                        reprehenderit
-                        veniam. Alias, aperiam, ducimus eveniet in inventore itaque iusto, molestiae nobis quia quod
-                        suscipit veniam? Amet atque aut autem, cupiditate dolorum est ex, expedita iure, nulla
-                        placeat
-                        repudiandae voluptatem voluptatum. Cumque, excepturi.
-                    </div>
-                </section>
-                <section className={classes.fifthSection}>
-                    <h2>Fifth section</h2>
-                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid dolor excepturi, harum
-                        minima placeat provident quis quo ratione sapiente sed temporibus. Alias animi atque cum
-                        dignissimos, dolore fugit maxime nam nemo nihil nobis optio quas quia, rerum sed temporibus
-                        velit, voluptatum! Deleniti doloremque eos excepturi ipsam libero, nemo quam rerum sint
-                        voluptate voluptates. Aspernatur at atque blanditiis cumque laborum natus nulla perspiciatis
-                        reprehenderit? Asperiores consequuntur deserunt dolore minima tempora.
                     </div>
                 </section>
             </main>
