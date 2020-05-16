@@ -44,12 +44,35 @@ h2 {
   font-size: 1.7rem;
   color: #A73728;
 }
-.layoutFooter {}
+// .layoutFooter {}
 
-//стили из урока по анимации----------------------------------------------------
-.firstSection {}
-.secondSection {}
-.thirdSection {}
+// Начало стилей из урока по анимации ----------------------------------------------------
+#field {
+  overflow: hidden;
+  width: 200px;
+  height: 150px;
+  border-top: 10px solid black;
+  border-right: 10px solid gray;
+  border-bottom: 10px solid gray;
+  border-left: 10px solid black;
+  background-color: #00FF00;
+  font: 10px/1.2 monospace;
+}
+
+.triangle-right {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 20px solid red;
+  text-indent: -20px;
+  font: 12px/1 monospace;
+}
+// конец стилей из урока по анимации ----------------------------------------------------
+// .firstSection {}
+// .secondSection {}
+// .thirdSection {}
 
 .fourthSection {
   padding-left: 7px;
@@ -63,7 +86,7 @@ h2 {
     opacity: 1;
   }
 }
-.fifthSection {}
+// .fifthSection {}
 
 //.colorOne {
 //  background-color: #9BC53D;
