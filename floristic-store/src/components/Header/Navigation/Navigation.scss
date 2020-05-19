@@ -1,0 +1,34 @@
+$blue:        #05285e;
+$magenta:     #fe5c81;
+$gray:        #9da2ab;
+$gray-light:  #f2f6f9;
+$white:       #ffffff;
+
+.nav {
+  flex: 3;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+
+  & li {
+    margin: 0px 10px;
+  }
+
+  & .link {
+    width: 100%;
+    padding: 11px 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    //letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 700;
+    color: $blue;
+    transition: 0.3s all ease-in-out;
+
+    &:hover {
+      color: $magenta;
+    }
+  }
+}

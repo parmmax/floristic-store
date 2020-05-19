@@ -11,9 +11,9 @@ window.onscroll = () => scrollFunction();
 
 let scrollFunction = () => {
     if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
-        document.getElementById("menu").style.height = "80px";
+        document.getElementById("header").style.height = "80px";
     } else {
-        document.getElementById("menu").style.height = "160px";
+        document.getElementById("header").style.height = "160px";
     }
 };
 
@@ -22,7 +22,7 @@ const App = () => {
         <div className="defaultLayout">
             <Header/>
             <main className="mainContainer">
-                <h1>Main Content</h1>
+                <h1>Главная страница</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, asperiores cum enim error est ex fugiat
                     fugit harum labore laudantium minus molestiae nihil nulla obcaecati omnis optio pariatur quam quis
                     recusandae repellat reprehenderit repudiandae sed sunt, temporibus ut velit veritatis voluptas.

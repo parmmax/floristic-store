@@ -3,3 +3,15 @@ $magenta:     #fe5c81;
 $gray:        #9da2ab;
 $gray-light:  #f2f6f9;
 $white:       #ffffff;
+
+.addressContainer {
+
+  & svg {
+    height: 12px;
+    width: 12px;
+
+    & path {
+      fill: $magenta;
+    }
+  }
+}

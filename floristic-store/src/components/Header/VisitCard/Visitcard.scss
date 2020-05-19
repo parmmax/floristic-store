@@ -1,0 +1,38 @@
+$blue:        #05285e;
+$magenta:     #fe5c81;
+$gray:        #9da2ab;
+$gray-light:  #f2f6f9;
+$white:       #ffffff;
+
+.visitCard {
+  flex: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 15px;
+
+  & a {
+    color: $blue;
+    transition: 0.3s all ease-in-out;
+    &:hover {
+      color: $magenta;
+    }
+  }
+
+  & .phoneCard {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 5px 0px 0px 10px;
+  }
+
+  & .addressCard {
+    flex: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 5px 0px 0px 10px
+  }
+}

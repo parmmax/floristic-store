@@ -1,7 +1,61 @@
+$blue: #05285e;
+$magenta: #fe5c81;
+$gray: #9da2ab;
+$gray-light: #f2f6f9;
+$white: #ffffff;
+
 .layoutFooter {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   margin-top: 10px;
-  padding: 20px 10px;
-  background: #3d1f1d;
-  color: white;
-  box-shadow: 2px 2px 10px #3d1f1d;
+  color: $gray;
+  width: 100%;
+  height: 240px;
+
+  & .footerNav {
+    border-top: 1px solid $gray;
+    padding: 40px 15px;
+    width: 100%;
+    height: 100%;
+
+    & .list {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+
+      & > li {
+        flex: 1;
+      }
+
+      & li {
+        color: $blue;
+        font-weight: 500;
+        transition: 0.3s all ease-in-out;
+
+        &:hover {
+          color: $gray;
+        }
+      }
+    }
+  }
+
+  & .footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: $gray-light;
+    width: 100%;
+    padding: 30px 15px;
+
+    & a {
+      color: $blue;
+
+      &:hover {
+        color: $gray;
+      }
+    }
+  }
 }

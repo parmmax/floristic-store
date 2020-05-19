@@ -1,5 +1,14 @@
+$blue:        #05285e;
+$magenta:     #fe5c81;
+$gray:        #9da2ab;
+$gray-light:  #f2f6f9;
+$white:       #ffffff;
+
 .defaultLayout {
   margin: 0 auto;
+  color: $white;
+  font-size: 14px;
+  font-family: 'Ubuntu', 'Roboto', sans-serif;
 }
 
 .mainContainer {
@@ -8,11 +17,14 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 160px 10px 10px 10px;
-  width: 620px;
+  padding: 192px 10px 10px 10px;
+  max-width: 720px;
   font-size: 1.2rem;
   transition: all 1s ease-in;
-  background: #ffffff;
-  color: #3d1f1d;
+  color: $gray;
   text-align: justify;
+
+  h1 {
+    color: $blue;
+  }
 }
