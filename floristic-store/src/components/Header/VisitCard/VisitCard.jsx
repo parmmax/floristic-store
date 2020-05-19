@@ -1,7 +1,7 @@
 import React from "react";
 import './Visitcard.scss'
-import {PhoneIcon} from "../../Icons/Phone/PhoneIcon";
-import {HomeIcon} from "../../Icons/Home/HomeIcon";
+import {PhoneIcon} from "../Icons/PhoneIcon/PhoneIcon";
+import {HomeIcon} from "../Icons/HomeIcon/HomeIcon";
 
 export const VisitCard = () => {
     return (

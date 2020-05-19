@@ -1,6 +1,6 @@
 import React from "react";
 import './Brand.scss';
-import {Logo} from "../../Icons/Logo/Logo";
+import {Logo} from "../Icons/LogoIcon/Logo";
 
 export const Brand = (props) => {
     return (

@@ -1,21 +1,9 @@
 import React from 'react';
-import './App.scss'
 import './assets/typography/_fonts.scss'
 import './assets/reset/reset.scss'
+import './App.scss'
 import {Header} from "./components/Header/Header";
 import {Footer} from "./components/Footer/Footer";
-
-// debugger;
-
-window.onscroll = () => scrollFunction();
-
-let scrollFunction = () => {
-    if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
-        document.getElementById("header").style.height = "80px";
-    } else {
-        document.getElementById("header").style.height = "160px";
-    }
-};
 
 const App = () => {
     return (
