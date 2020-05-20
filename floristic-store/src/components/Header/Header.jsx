@@ -4,7 +4,7 @@ import {Brand} from "./Brand/Brand";
 import {Navigation} from "./Navigation/Navigation";
 import {VisitCard} from "./VisitCard/VisitCard";
 
-export const Header = (props) => {
+const Header = (props) => {
     return (
         <header id="header" className="header">
             <Brand />
@@ -13,3 +13,5 @@ export const Header = (props) => {
         </header>
     )
 };
+
+export default Header;

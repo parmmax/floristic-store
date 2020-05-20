@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.scss'
 import {Navigation} from "../Header/Navigation/Navigation";
 
-export const Footer = (props) => {
+const Footer = (props) => {
     return (
         <footer className="layoutFooter">
             <div className="footerNav">
@@ -53,3 +53,5 @@ export const Footer = (props) => {
         </footer>
     )
 };
+
+export default Footer;

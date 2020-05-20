@@ -1,0 +1,16 @@
+.products {
+  margin: 0 auto;
+  max-width: 720px;
+}
+
+.product-card {
+  width: 300px;
+
+  & h3 {
+    text-transform: uppercase;
+  }
+
+  & img {
+    height: 300px;
+  }
+}
